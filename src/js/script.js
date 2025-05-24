@@ -46,6 +46,6 @@ addEventListener("click", (e) => {
     e.target.closest(".todo-task").style.opacity = "0.5";
     setTimeout(() => {
       e.target.closest(".todo-task").remove();
-    }, 1000);
+    }, 500);
   }
 });
