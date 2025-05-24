@@ -90,3 +90,9 @@ footer {
     font-size: 3em !important;
   }
 }
+@media (max-width: 400px) {
+  .todo-display {
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+}
