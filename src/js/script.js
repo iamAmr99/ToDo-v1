@@ -16,8 +16,6 @@ function renderList() {
   }
 }
 
-
-
 todoAdd.addEventListener("click", () => {
   if (todoInput.value === "") {
     todoInput.style.border = "3px solid red";
@@ -30,7 +28,6 @@ todoAdd.addEventListener("click", () => {
   localStorage.setItem("todoList", JSON.stringify(todoList));
   todoInput.value = "";
   renderList();
-
 });
 
 addEventListener("click", (e) => {

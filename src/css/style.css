@@ -32,12 +32,13 @@ main {
 .todo-display {
   font-family: var(--text-font) !important;
   font-size: 1.5em;
-  overflow-y: auto;
-  padding: 0px 7px;
-  max-height: 710px;
+  padding: 0px 10px;
+  /* max-height: 710px; */
   flex: 1;
   margin: auto;
   width: 95%;
+  max-height: 75vh;
+  overflow-y: auto;
 }
 .todo-task {
   width: 100%;
@@ -88,11 +89,5 @@ footer {
   }
   h1 {
     font-size: 3em !important;
-  }
-}
-@media (max-width: 400px) {
-  .todo-display {
-    max-height: 75vh;
-    overflow-y: auto;
   }
 }
