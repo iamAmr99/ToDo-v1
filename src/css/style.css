@@ -2,6 +2,7 @@
   --header-font: "Pacifico", cursive;
   --text-font: "Merriweather", serif;
 }
+
 header {
   width: 100%;
 }
@@ -33,11 +34,10 @@ main {
   font-family: var(--text-font) !important;
   font-size: 1.5em;
   padding: 0px 10px;
-  max-height: 710px;
+  max-height:90%;
   flex: 1;
   margin: auto;
   width: 95%;
-
   overflow-y: auto;
 }
 .todo-task {
