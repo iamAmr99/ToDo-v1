@@ -3,6 +3,7 @@ let todoDisplay = document.getElementById("todoDisplay");
 let todoInput = document.getElementById("todoInput");
 
 let todoList = JSON.parse(localStorage.getItem("todoList")) || [];
+renderList();
 
 function renderList() {
   todoDisplay.innerHTML = "";
