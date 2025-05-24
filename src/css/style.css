@@ -33,11 +33,11 @@ main {
   font-family: var(--text-font) !important;
   font-size: 1.5em;
   padding: 0px 10px;
-  /* max-height: 710px; */
+  max-height: 710px;
   flex: 1;
   margin: auto;
   width: 95%;
-  max-height: 75vh;
+
   overflow-y: auto;
 }
 .todo-task {
