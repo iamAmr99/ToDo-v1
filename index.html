@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo v1</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="src/node_modules/normalize.css/normalize.css"
+    />
+<!-- google fonts ↓-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts ↑ -->
+<!-- favicons ↓ -->
+<link rel="apple-touch-icon" sizes="180x180" href="src/imgs/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="src/imgs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="src/imgs/favicon-16x16.png">
+<link rel="manifest" href="src/imgs/site.webmanifest">
+<!-- favicons ↑ -->
+    <link
+      rel="stylesheet"
+      href="src/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="src/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="wrapping">
+      <header>
+        <h1>To Do list</h1>
+      </header>
+      <main>
+        <div class="todo-input">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control "
+              placeholder="what to do ?!"
+              id="todoInput"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button class="btn btn-secondary" type="button" id="todoAdd">
+              Add
+            </button>
+          </div>
+        </div>
+        <div class="todo-display" id="todoDisplay">
+<!-- todo tasks goes here ! -->
+        </div>
+      </main>
+      <footer>
+        <p class="footer-text-wrap">---</p>
+        <i class="fa-brands fa-github fa-2x"></i>
+        <p class="footer-text-wrap">---</p>
+      </footer>
+    </div>
+    <div class="BG"></div>
+    <script src="src/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="src/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
